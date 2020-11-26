@@ -1,0 +1,11 @@
+#Tema I
+my_list = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
+#
+print(sorted(my_list))
+#sorted() nu modifica lista intiala , sort() o modifica
+print(sorted(my_list,reverse=True))
+#putem sa-i dam parametrul reverse cu true
+sorted_list = sorted(my_list)
+print(sorted_list[1::2])
+print(sorted_list[::2])
+print(sorted_list[2::3])
